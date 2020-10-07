@@ -2,15 +2,13 @@
 layout: default
 ---
 
-### About Me
-
 <table border="0">
   <tr>
     <td width="75%">
       <p>
         I'm a senior undergraduate in Computer Science Department at Shanghai Jiao Tong University, china. With an interest in randomised algorithms and complexity theory, I am currently working on sampling and counting problems.
       </p>
-      <p> My <a href="/second.html">Curriculum Vitae</a> </p>
+      <!-- <p> My <a href="/second.html">Curriculum Vitae</a> </p> -->
     </td>
     <td width="25%">
       <img src="/images/me.jpg" width="100%">
@@ -18,38 +16,32 @@ layout: default
   </tr>
 </table>
 
-### Projects
+## Research Projects
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+### CFTP Perfect Sampler for monotone CNF Formulas
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+### *SimPL* interpreter
 
-There's a horizontal rule below this.
 
 * * *
 
-Blabla
+## Slides & Notes
 
-### Slides & Notes
+### Randomisation
+- [Markov Chain Toolbox](./documents/MCtoolbox.pdf)
+- [Introduction to CFTP](./documents/CFTP.pdf)
+- [CFTP Sampler for Proper Colourings](./documents/CFTP-colouring.pdf)
+- [Lovasz Local Lemma: from Probabilistic to Constructive](./documents/LLL.pdf)
 
-#### Randomisation
+### Theory of Computation
 
-[Markov Chain Toolbox](./documents/MCtoolbox.pdf)
+### Linear Programming
 
-[Introduction to CFTP](./documents/CFTP.pdf)
+## Grocery
 
-[CFTP Sampler for Proper Colourings](./documents/CFTP-colouring.pdf)
+### DSP Radio Receiver
 
-[Lovasz Local Lemma: from Probabilistic to Constructive](./documents/LLL.pdf)
+### Remote Control Boat
 
-#### Theory of Computation
-
-#### Linear Programming
-
-### Grocery
+### Nixie Tube Timer
 
