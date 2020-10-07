@@ -6,7 +6,7 @@ layout: default
   <tr>
     <td width="75%">
       <p>
-        I'm a senior undergraduate in Computer Science Department at Shanghai Jiao Tong University, china. With interests in randomised algorithms and complexity theory, I am currently working on sampling and counting problems.
+        I'm a senior undergraduate in Computer Science Department at Shanghai Jiao Tong University, China. With interests in randomised algorithms and complexity theory, I am currently working on sampling and counting problems.
       </p>
       <!-- <p> My <a href="/second.html">Curriculum Vitae</a> </p> -->
     </td>
@@ -28,12 +28,13 @@ layout: default
 - Interpreter for a variant of *ML*, enabling imperative and functional programming
 - Built-in type inference mechanism and Hindley-Milner polymorphism
 - Supports garbage collection, stream operation, and tail recursion optimisation
-- Hosted on [GitHub](https://github.com/YanhengWang/SimPL).
+- Hosted on [GitHub](https://github.com/YanhengWang/SimPL)
 
 ### Artificial Intelligence for the Game of Draughts
 
 - Applies Monte Carlo tree search to the game of Draughts
 - Uses deep learning to evaluate the outcome of a position
+- Hosted on [GitHub](https://github.com/YanhengWang/Draughts)
 
 * * *
 
