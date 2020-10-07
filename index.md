@@ -6,7 +6,7 @@ layout: default
   <tr>
     <td width="75%">
       <p>
-        I'm a senior undergraduate in Computer Science Department at Shanghai Jiao Tong University, china. With an interest in randomised algorithms and complexity theory, I am currently working on sampling and counting problems.
+        I'm a senior undergraduate in Computer Science Department at Shanghai Jiao Tong University, china. With interests in randomised algorithms and complexity theory, I am currently working on sampling and counting problems.
       </p>
       <!-- <p> My <a href="/second.html">Curriculum Vitae</a> </p> -->
     </td>
@@ -22,13 +22,13 @@ layout: default
 
 ### *SimPL* interpreter
 
-
 * * *
 
 ## Slides & Notes
 
 ### Randomisation
 - [Markov Chain Toolbox](./documents/MCtoolbox.pdf)
+- [Lower Bounds on Mixing Times](./documents/MClowerbound.pdf)
 - [Introduction to CFTP](./documents/CFTP.pdf)
 - [CFTP Sampler for Proper Colourings](./documents/CFTP-colouring.pdf)
 - [Lovasz Local Lemma: from Probabilistic to Constructive](./documents/LLL.pdf)
@@ -36,6 +36,8 @@ layout: default
 ### Theory of Computation
 
 ### Linear Programming
+
+* * *
 
 ## Grocery
 
