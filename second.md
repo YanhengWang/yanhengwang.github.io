@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## My Second Page
+## Curriculum Vitae
 
 Welcome!
 
-[back](./)
+[Back](./)
