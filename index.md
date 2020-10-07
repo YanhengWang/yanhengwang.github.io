@@ -77,6 +77,19 @@ var fun = function lang(l) {
 
 <img src="./images/me.jpg" alt="My Photo" width="100pt">
 
+<table border="0">
+  <tr>
+    <td width="75%">
+      <h1>Name</h1>
+      <p><b> aa </b></p>
+      <p><b> bb </b></p>
+    </td>
+    <td width="25%">
+      <img src="/images/me.jpg" width="100%">
+    </td>
+  </tr>
+</table>
+
 ### Definition lists can be used with HTML syntax.
 
 <dl>
