@@ -38,9 +38,13 @@ Blabla
 ### Slides & Notes
 
 #### Randomisation
+
 [Markov Chain Toolbox](./documents/MCtoolbox.pdf)
+
 [Introduction to CFTP](./documents/CFTP.pdf)
+
 [CFTP Sampler for Proper Colourings](./documents/CFTP-colouring.pdf)
+
 [Lovasz Local Lemma: from Probabilistic to Constructive](./documents/LLL.pdf)
 
 #### Theory of Computation
