@@ -11,7 +11,7 @@ layout: default
       <!-- <p> My <a href="/second.html">Curriculum Vitae</a> </p> -->
     </td>
     <td width="25%">
-      <img src="/images/me.jpg" width="100%">
+      <img src="./images/me.jpg" width="100%">
     </td>
   </tr>
 </table>
@@ -20,7 +20,20 @@ layout: default
 
 ### CFTP Perfect Sampler for monotone CNF Formulas
 
+- An efficient perfect sampler based on CFTP method
+- Meets hardness bound up to polynomial factor
+
 ### *SimPL* interpreter
+
+- Interpreter for a variant of *ML*, enabling imperative and functional programming
+- Built-in type inference mechanism and Hindley-Milner polymorphism
+- Supports garbage collection, stream operation, and tail recursion optimisation
+- Hosted on [GitHub](https://github.com/YanhengWang/SimPL).
+
+### Artificial Intelligence for the Game of Draughts
+
+- Applies Monte Carlo tree search to the game of Draughts
+- Uses deep learning to evaluate the outcome of a position
 
 * * *
 
@@ -29,7 +42,7 @@ layout: default
 ### Randomisation
 - [Markov Chain Toolbox](./documents/MCtoolbox.pdf)
 - [Lower Bounds on Mixing Times](./documents/MClowerbound.pdf)
-- [Introduction to CFTP](./documents/CFTP.pdf)
+- [Introduction to CFTP](./documents/CFTP.pdf) (Talk given in a seminar on sampling)
 - [CFTP Sampler for Proper Colourings](./documents/CFTP-colouring.pdf)
 - [Lovasz Local Lemma: from Probabilistic to Constructive](./documents/LLL.pdf)
 
