@@ -40,10 +40,7 @@ layout: default
 * * *
 
 ## Grocery
-
-### DSP Radio Receiver
-
-### Remote Control Boat
-
-### Nixie Tube Timer
+- [DSP Radio Receiver](./radio.html)
+- [Remote Control Boat](./boat.html)
+- [Nixie Tube Timer](./nixie.html)
 

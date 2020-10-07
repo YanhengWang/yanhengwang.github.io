@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Curriculum Vitae
+## Nixie Tube Timer
 
-Welcome!
+
 
 [Back](./)
