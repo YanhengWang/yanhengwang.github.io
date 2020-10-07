@@ -75,8 +75,7 @@ var fun = function lang(l) {
 
 ### Image
 
-![My Photo](./me.jpg)
-
+<img src="./images/me.jpg" alt="My Photo" width="100pt">
 
 ### Definition lists can be used with HTML syntax.
 
