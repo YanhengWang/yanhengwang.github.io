@@ -28,7 +28,7 @@ layout: default
 - Enables imperative and functional programming
 - Built-in type inference mechanism and Hindley-Milner polymorphism
 - Supports garbage collection, stream operation, and tail recursion optimisation
-- [GitHub](https://github.com/YanhengWang/SimPL) | [Specification](./SimPL.pdf)
+- [GitHub](https://github.com/YanhengWang/SimPL) &vert; [Specification](./SimPL.pdf)
 
 ### Uniform Sampler on 2D Space
 
