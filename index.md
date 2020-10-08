@@ -64,6 +64,7 @@ layout: default
 1. [Reduction](./documents/computation-5.pdf)
 1. [Time complexity, **P** and **NP**](./documents/computation-6.pdf)
 1. [Space complexity, **PSPACE**, **L** and **NL**](./documents/computation-7.pdf)
+1. [Hierarchy theorems and oracle](./documents/computation-8.pdf)
 
 ### Programming Languages
 
