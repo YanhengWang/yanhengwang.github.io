@@ -49,23 +49,37 @@ layout: default
 ### Randomisation
 - [Markov Chain Toolbox](./documents/MCtoolbox.pdf)
 - [Lower Bounds on Mixing Times](./documents/MClowerbound.pdf)
-- [Introduction to CFTP](./documents/CFTP.pdf) (Talk given in a seminar on sampling)
+- [Introduction to CFTP](./documents/CFTP.pdf)
 - [CFTP Sampler for Proper Colourings](./documents/CFTP-colouring.pdf)
 - [Lovasz Local Lemma: from Probabilistic to Constructive](./documents/LLL.pdf)
 
 ### Theory of Computation
 
-This series of notes (written in Chinese) was finished in 2019. It follows *Sipser*'s textbook *Introduction to the Theory of Computation*, but occasionally takes different paths or discusses supplementary materials.
+> This series of notes (in Chinese) was finished in 2019. It follows *Sipser*'s textbook *Introduction to the Theory of Computation*, but occasionally takes different paths or discusses supplementary materials.
 
-| Chapter                  | Topics |
-| ------------------------ | ------ |
-| [1](./computation-1.pdf) | Finite automata & regular languages |
-| [2](./computation-2.pdf) | Push down automata & context free languages |
-| [3](./computation-3.pdf) | Turing machines, **RE** and **R** |
-| [4](./computation-4.pdf) | Undecidability by diagonalisation |
-| [5](./computation-5.pdf) | Reduction |
-| [6](./computation-6.pdf) | Time complexity, **P** and **NP** |
-| [7](./computation-7.pdf) | Space complexity, **PSPACE**, **L** and **NL** |
+| Chapter | Topics |
+| ------- | ------ |
+| [1](./documents/computation-1.pdf) | Finite automata & regular languages |
+| [2](./documents/computation-2.pdf) | Push down automata & context free languages |
+| [3](./documents/computation-3.pdf) | Turing machines, **RE** and **R** |
+| [4](./documents/computation-4.pdf) | Undecidability by diagonalisation |
+| [5](./documents/computation-5.pdf) | Reduction |
+| [6](./documents/computation-6.pdf) | Time complexity, **P** and **NP** |
+| [7](./documents/computation-7.pdf) | Space complexity, **PSPACE**, **L** and **NL** |
+
+### Programming Languages
+
+> This series of notes (in Chinese) was finished in 2020.
+
+| Chapter | Topics |
+| ------- | ------ |
+| [1](./documents/PL-1.pdf) | Inductive definition and proof |
+| [2](./documents/PL-2.pdf) | Lambda calculus |
+| [3](./documents/PL-3.pdf) | Simply-typed lambda calculus |
+| [4](./documents/PL-4.pdf) | Type system extended |
+| [5](./documents/PL-5.pdf) | Storage and pointers |
+| [6](./documents/PL-6.pdf) | Type reconstruction |
+| [7](./documents/PL-7.pdf) | Subtype relation |
 
 ### Complexity Theory
 
