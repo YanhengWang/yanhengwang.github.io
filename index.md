@@ -25,16 +25,22 @@ layout: default
 
 ### *SimPL* interpreter
 
-- Interpreter for a variant of *ML*, enabling imperative and functional programming
+- Enables imperative and functional programming
 - Built-in type inference mechanism and Hindley-Milner polymorphism
 - Supports garbage collection, stream operation, and tail recursion optimisation
-- Hosted on [GitHub](https://github.com/YanhengWang/SimPL)
+- [GitHub](https://github.com/YanhengWang/SimPL) | [Specification](./SimPL.pdf)
+
+### Uniform Sampler on 2D Space
+
+- Gives efficient algorithms in sampling regular/irregular 2D space
+- Uses monotonicity of cumulative distribution function to perfrom binary search
+- Could run arbitrarily faster than simple rejection sampling
 
 ### Artificial Intelligence for the Game of Draughts
 
 - Applies Monte Carlo tree search to the game of Draughts
 - Uses deep learning to evaluate the outcome of a position
-- Hosted on [GitHub](https://github.com/YanhengWang/Draughts)
+- [GitHub](https://github.com/YanhengWang/Draughts)
 
 * * *
 
