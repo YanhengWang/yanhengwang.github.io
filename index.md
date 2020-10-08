@@ -55,7 +55,25 @@ layout: default
 
 ### Theory of Computation
 
+This series of notes (written in Chinese) was finished in 2019. It follows *Sipser*'s textbook *Introduction to the Theory of Computation*, but occasionally takes different paths or discusses supplementary materials.
+
+| Chapter                  | Topics |
+| ------------------------ | ------ |
+| [1](./computation-1.pdf) | Finite automata & regular languages |
+| [2](./computation-2.pdf) | Push down automata & context free languages |
+| [3](./computation-3.pdf) | Turing machines, **RE** and **R** |
+| [4](./computation-4.pdf) | Undecidability by diagonalisation |
+| [5](./computation-5.pdf) | Reduction |
+| [6](./computation-6.pdf) | Time complexity, **P** and **NP** |
+| [7](./computation-7.pdf) | Space complexity, **PSPACE**, **L** and **NL** |
+
+### Complexity Theory
+
+Under construction.
+
 ### Linear Programming
+
+Under construction.
 
 * * *
 
