@@ -18,12 +18,12 @@ layout: default
 
 ## Research Projects
 
-### CFTP Perfect Sampler for monotone CNF Formulas
+### CFTP Perfect Sampler for Monotone CNF Formulas
 
 - An efficient perfect sampler based on CFTP method
 - Meets hardness bound up to polynomial factor
 
-### *SimPL* interpreter
+### *SimPL* Interpreter
 
 - Enables imperative and functional programming
 - Built-in type inference mechanism and Hindley-Milner polymorphism
@@ -62,5 +62,4 @@ layout: default
 ## Grocery
 - [DSP Radio Receiver](./radio.html)
 - [Remote Control Boat](./boat.html)
-- [Nixie Tube Timer](./nixie.html)
 
