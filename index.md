@@ -48,14 +48,14 @@ layout: default
 
 ### Randomisation
 - [Markov Chain Toolbox](./documents/MCtoolbox.pdf)
-- [Lower Bounds on Mixing Times](./documents/MClowerbound.pdf)
+- [Lower Bounds on Mixing Times](./documents/MC-lowerbound.pdf)
 - [Introduction to CFTP](./documents/CFTP.pdf)
 - [CFTP Sampler for Proper Colourings](./documents/CFTP-colouring.pdf)
 - [Lovasz Local Lemma: from Probabilistic to Constructive](./documents/LLL.pdf)
 
 ### Theory of Computation
 
-> This series of notes (in Chinese) was finished in 2019. It follows *Sipser*'s textbook *Introduction to the Theory of Computation*, but occasionally takes different paths or discusses supplementary materials.
+> This series of notes (in Chinese) was finished in 2019. It follows Sipser's textbook *Introduction to the Theory of Computation*, but occasionally takes different paths or discusses supplementary materials.
 
 1. [Finite automata & regular languages](./documents/computation-1.pdf)
 1. [Push down automata & context free languages](./documents/computation-2.pdf)
@@ -68,7 +68,7 @@ layout: default
 
 ### Programming Languages
 
-> This series of notes (in Chinese) was finished in 2020.
+> This series of notes (in Chinese) was finished in 2020. It is strongly influenced by Pierce's *Types and Programming Languages*.
 
 1. [Inductive definition and proof](./documents/PL-1.pdf)
 1. [Lambda calculus](./documents/PL-2.pdf)
@@ -80,11 +80,11 @@ layout: default
 
 ### Complexity Theory
 
-Under construction.
+> This section is under construction.
 
-### Linear Programming
+### Linear Algebra & Linear Programming
 
-Under construction.
+> This section is under construction. You may find its outline [here](./LP.html).
 
 * * *
 
