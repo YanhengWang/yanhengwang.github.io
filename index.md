@@ -16,12 +16,13 @@ layout: default
   </tr>
 </table>
 
-## Research Projects
+## Research & Projects
 
 ### CFTP Perfect Sampler for Monotone CNF Formulas
 
 - An efficient perfect sampler based on CFTP method
 - Meets hardness bound up to polynomial factor
+- [PDF version](./CFTP-CNF.pdf)
 
 ### *SimPL* Interpreter
 
