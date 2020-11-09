@@ -48,7 +48,7 @@ layout: default
 ## Slides & Notes
 
 ### Randomisation
-- [Markov Chain Toolbox](./documents/MCtoolbox.pdf)
+- [Markov Chain Toolbox](./documents/MC-toolbox.pdf)
 - [Lower Bounds on Mixing Times](./documents/MC-lowerbound.pdf)
 - [Introduction to CFTP](./documents/CFTP.pdf)
 - [CFTP Sampler for Proper Colourings](./documents/CFTP-colouring.pdf)
