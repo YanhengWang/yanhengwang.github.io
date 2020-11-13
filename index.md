@@ -58,26 +58,26 @@ layout: default
 
 > This series of notes (in Chinese) was finished in 2019. It follows Sipser's textbook *Introduction to the Theory of Computation*, but occasionally takes different paths or discusses supplementary materials.
 
-1. [Finite automata & regular languages](./documents/computation-1.pdf)
-1. [Push down automata & context free languages](./documents/computation-2.pdf)
-1. [Turing machines, **RE** and **R**](./documents/computation-3.pdf)
-1. [Undecidability by diagonalisation](./documents/computation-4.pdf)
-1. [Reduction](./documents/computation-5.pdf)
-1. [Time complexity, **P** and **NP**](./documents/computation-6.pdf)
-1. [Space complexity, **PSPACE**, **L** and **NL**](./documents/computation-7.pdf)
-1. [Hierarchy theorems and oracle](./documents/computation-8.pdf)
+1. [Finite automata & regular languages](./documents/NotesComputation/1.pdf)
+1. [Push down automata & context free languages](./documents/NotesComputation/2.pdf)
+1. [Turing machines, **RE** and **R**](./documents/NotesComputation/3.pdf)
+1. [Undecidability by diagonalisation](./documents/NotesComputation/4.pdf)
+1. [Reduction](./documents/NotesComputation/5.pdf)
+1. [Time complexity, **P** and **NP**](./documents/NotesComputation/6.pdf)
+1. [Space complexity, **PSPACE**, **L** and **NL**](./documents/NotesComputation/7.pdf)
+1. [Hierarchy theorems and oracle](./documents/NotesComputation/8.pdf)
 
 ### Programming Languages
 
 > This series of notes (in Chinese) was finished in 2020. It is strongly influenced by Pierce's *Types and Programming Languages*.
 
-1. [Inductive definition and proof](./documents/PL-1.pdf)
-1. [Lambda calculus](./documents/PL-2.pdf)
-1. [Simply-typed lambda calculus](./documents/PL-3.pdf)
-1. [Type system extended](./documents/PL-4.pdf)
-1. [Storage and pointers](./documents/PL-5.pdf)
-1. [Type reconstruction](./documents/PL-6.pdf)
-1. [Subtype relation](./documents/PL-7.pdf)
+1. [Inductive definition and proof](./documents/NotesPL/1.pdf)
+1. [Lambda calculus](./documents/NotesPL/2.pdf)
+1. [Simply-typed lambda calculus](./documents/NotesPL/3.pdf)
+1. [Type system extended](./documents/NotesPL/4.pdf)
+1. [Storage and pointers](./documents/NotesPL/5.pdf)
+1. [Type reconstruction](./documents/NotesPL/6.pdf)
+1. [Subtype relation](./documents/NotesPL/7.pdf)
 
 ### Complexity Theory
 
