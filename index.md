@@ -6,7 +6,7 @@ layout: default
   <tr>
     <td width="75%">
       <p>
-        I'm a senior undergraduate in Computer Science Department at Shanghai Jiao Tong University, China. With interests in randomised algorithms and complexity theory, I am currently working on sampling and counting problems.
+        I'm a senior undergraduate in Computer Science at Shanghai Jiao Tong University, China. With interests in randomised algorithms and complexity theory, I am currently working on sampling problem and probabilistic analyses.
       </p>
       <!-- <p> My <a href="/second.html">Curriculum Vitae</a> </p> -->
     </td>
@@ -18,11 +18,21 @@ layout: default
 
 ## Research & Projects
 
+### The Weird Ising Model
+
+- Ongoing undergraduate thesis
+
+### Computing Power of the Game Manufactoria
+
+- Formalises the computation model in the game *Manufactoria*
+- Proves Turing completeness and discusses other aspects of its computing power
+- [The game](http://pleasingfungus.com/Manufactoria/) &#124; [PDF manuscript](./Manufactoria.pdf)
+
 ### CFTP Perfect Sampler for Monotone CNF Formulas
 
 - An efficient perfect sampler based on CFTP method
 - Meets hardness bound up to polynomial factor
-- [PDF version](./CFTP-CNF.pdf)
+- [PDF manuscript](./CFTP-monoCNF.pdf)
 
 ### *SimPL* Interpreter
 
