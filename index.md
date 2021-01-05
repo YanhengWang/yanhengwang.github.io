@@ -26,20 +26,20 @@ layout: default
 
 - Formalises the computation model in the game *Manufactoria*
 - Proves Turing completeness and discusses other aspects of its computing power
-- [The game](http://pleasingfungus.com/Manufactoria/) &#124; [PDF manuscript](./Manufactoria.pdf)
+- [The game](http://pleasingfungus.com/Manufactoria/) &#124; [PDF manuscript](./documents/Manufactoria.pdf)
 
 ### CFTP Perfect Sampler for Monotone CNF Formulas
 
 - An efficient perfect sampler based on CFTP method
 - Meets hardness bound up to polynomial factor
-- [PDF manuscript](./CFTP-monoCNF.pdf)
+- [PDF manuscript](./documents/CFTP-monoCNF.pdf)
 
 ### *SimPL* Interpreter
 
 - Enables imperative and functional programming
 - Built-in type inference mechanism and Hindley-Milner polymorphism
 - Supports garbage collection, stream operation, and tail recursion optimisation
-- [GitHub](https://github.com/YanhengWang/SimPL) &#124; [Specification](./SimPL.pdf)
+- [GitHub](https://github.com/YanhengWang/SimPL) &#124; [Specification](./documents/SimPL.pdf)
 
 ### Uniform Sampler on 2D Space
 
