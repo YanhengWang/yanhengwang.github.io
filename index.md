@@ -6,7 +6,7 @@ layout: default
   <tr>
     <td width="75%">
       <p>
-        I'm a senior undergraduate in Computer Science at Shanghai Jiao Tong University, China. With interests in randomised algorithms and complexity theory, I am currently working on sampling problem and probabilistic analyses.
+        I'm a senior undergraduate in computer science at Shanghai Jiao Tong University. With interests in randomised algorithms and complexity theory, I am currently working on sampling problems and probabilistic analyses.
       </p>
       <!-- <p> My <a href="/second.html">Curriculum Vitae</a> </p> -->
     </td>
@@ -18,7 +18,7 @@ layout: default
 
 ## Research & Projects
 
-### The Weird Ising Model
+### A Variant of Ising Model with Ternary Interactions
 
 - Ongoing undergraduate thesis
 
@@ -40,18 +40,6 @@ layout: default
 - Built-in type inference mechanism and Hindley-Milner polymorphism
 - Supports garbage collection, stream operation, and tail recursion optimisation
 - [GitHub](https://github.com/YanhengWang/SimPL) &#124; [Specification](./documents/SimPL.pdf)
-
-### Uniform Sampler on 2D Space
-
-- Gives efficient algorithms in sampling regular/irregular 2D space
-- Uses monotonicity of cumulative distribution function to perfrom binary search
-- Could run arbitrarily faster than simple rejection sampling
-
-### Artificial Intelligence for the Game of Draughts
-
-- Applies Monte Carlo tree search to the game of Draughts
-- Uses deep learning to evaluate the outcome of a position
-- [GitHub](https://github.com/YanhengWang/Draughts)
 
 * * *
 
@@ -102,4 +90,3 @@ layout: default
 ## Grocery
 - [DSP Radio Receiver](./radio.html)
 - [Remote Control Boat](./boat.html)
-
