@@ -45,12 +45,13 @@ layout: default
 
 ## Slides & Notes
 
-### Randomisation
+### Counting and Sampling
 - [Markov Chain Toolbox](./documents/MC-toolbox.pdf)
 - [Lower Bounds on Mixing Times](./documents/MC-lowerbound.pdf)
 - [Introduction to CFTP](./documents/CFTP.pdf)
 - [CFTP Sampler for Proper Colourings](./documents/CFTP-colouring.pdf)
 - [Lovasz Local Lemma: from Probabilistic to Constructive](./documents/LLL.pdf)
+- [A Tutorial in Barvinok's Method](./documents/Barvinok's.pdf)
 
 ### Theory of Computation
 
