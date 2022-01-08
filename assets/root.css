@@ -1,0 +1,152 @@
+/* --- Definitions of webfonts --- */
+@font-face {
+    font-family: CMUroman;
+    src: url(./cmuserif_roman/cmunrm-webfont.woff);
+}
+
+@font-face {
+    font-family: CMUbold;
+    src: url(./cmuserif_bold/cmunbx-webfont.woff);
+}
+
+@font-face {
+    font-family: CMUitalic;
+    src: url(./cmuserif_oblique/cmunti-webfont.woff);
+}
+
+@font-face {
+    font-family: CMUupright;
+    src: url(./cmuserif_uprightoblique/cmunui-webfont.woff);
+}
+
+/* --- Styles of containers --- */
+.paper {
+    margin-left: 20%;
+    width: 70%;
+}
+
+.sidebar {
+    width: 140px;
+    height: 90%;
+    position: fixed;
+    margin: 10px 10px;
+    background-image: linear-gradient(linen, white);
+    border-radius: 5pt;
+    box-shadow: 0 4px 8px 0 lightgray;
+    overflow: hidden;
+}
+
+.vspace {
+    padding-top: 20pt;
+}
+
+/* --- Styles for text constructions --- */
+body {
+    font-family: CMUroman, Georgia;
+    font-size: 12pt;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 120%;
+}
+
+h1 {
+    font-family: CMUbold;
+    font-size: 18pt;
+    text-align: left;
+    margin-top: 15pt;
+    margin-bottom: 12pt;
+}
+
+h2 {
+    font-family: CMUbold;
+    font-size: 16pt;
+    text-align: left;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+h3 {
+    font-family: CMUbold;
+    font-size: 14pt;
+    text-align: left;
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+}
+
+p {
+    margin-top: 3pt;
+    margin-bottom: 6pt;
+}
+
+p.title {
+    font-family: CMUupright, Georgia;
+    font-size: 25pt;
+    text-align: left;
+}
+
+p.info {
+    font-family: CMUupright, Georgia;
+    font-size: 12pt;
+    margin: 10pt 0pt;
+    color: gray;
+    text-align: left;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+}
+
+code {
+    font-family: Menlo, "Courier New";
+    font-size: 11pt;
+}
+
+em {
+    font-family: CMUitalic, Georgia;
+}
+
+blockquote {
+    margin: 10px 10px;
+    padding: 3px 10px;
+    background: floralwhite;
+    border-radius: 5pt;
+    box-shadow: 0 2px 4px 0 lightgray;
+}
+
+/* --- Styles for hyperlinks (hence also buttons) --- */
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: chocolate;
+}
+
+a:visited {
+    color: darkmagenta;
+}
+
+a:hover {
+    color: coral;
+}
+
+.sidebar a {
+    font-family: CMUupright, Georgia;
+    font-size: 13pt;
+    color: black;
+    text-align: left;
+    border-left: 3px solid lightsalmon;
+    padding: 2px 7px;
+    margin: 3px 0px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: bisque;
+}

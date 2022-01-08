@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/root.css">
+    <link rel="stylesheet" href="/assets/highlighter.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- configure MathJax and predefine some macros -->
+    <script type="text/javascript">
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ["\\(", "\\)"]],
+                processEscapes: true,
+                processEnvironments: false,
+                macros: {
+                    Field: "\\mathbb{F}",
+                    Natural: "\\mathbb{N}",
+                    Real: "\\mathbb{R}",
+                    Pr: "\\mathbb{P}",
+                    Exp: "\\mathbb{E}",
+                    Var: "\\operatorname{Var}",
+                    class: ["\\mathcal{#1}", 1]
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <div style="text-align:center; margin:15pt 0pt">
+            <img src="/assets/icon.jpeg" alt="avatar"
+            style="width:90px; height:90px; border-radius:50%">
+        </div>
+        
+        <a href="/">Home</a>
+        <a href="/notes">Notes</a>
+        <a href="/research">Research</a>
+        <a href="/fun">Fun Stuffs</a>
+    </div>
+
+    <div>{{ content }}</div>
+</body>
+</html>

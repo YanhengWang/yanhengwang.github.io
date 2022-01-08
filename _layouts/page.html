@@ -1,0 +1,20 @@
+---
+layout: root
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <div class="paper">
+            <div class="vspace"></div>
+            {% if page.date %}
+            <p class="info">{{ page.date }}</p>
+            {% endif %}
+            <p class="title"><u>{{ page.title }}</u></p>
+            <div class="vspace"></div>
+            {{ content }}
+        </div>
+    </body>
+</html>
