@@ -1,7 +1,7 @@
 ---
 layout: page
+date: 7 January 2021
 title:  Playground
-date: Jan. 7, 2021
 ---
 
 # Header 1
@@ -21,9 +21,13 @@ date: Jan. 7, 2021
 
 Let $f: \Real \to \Real$ be a convex function and $X$ be a random variable, then
 
-$$ \Exp(f(X)) \geq f(\Exp(X)). $$
+$$ \Exp_D(f(X)) \geq f(\Exp_D(X)). $$
 
-Some more complicated formula:
+Testing other macros: $\Pr_D(X = 1)$, $\rank(A+B) \leq \rank(A) + \rank(B)$, $\norm{a+b}^2 \leq \norm{a}^2 + \norm{b}^2$, $\class{A}$,
+
+$$ \inner{\lambda x}{y+z} = \lambda \inner{x}{y} + \lambda \inner{x}{z}. $$
+
+A more complicated formula:
 
 $$ \begin{align}
     e_k &= \sum_{i=0}^{n-3} \binom{i}{k} h_i \\
@@ -32,7 +36,7 @@ $$ \begin{align}
 
 *italic*, **bold**, ***bold italic***
 
-Jekyll offers powerful support for code snippets:
+Code snippets:
 
 ```c++
 #include <iostream>

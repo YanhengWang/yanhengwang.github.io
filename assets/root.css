@@ -1,39 +1,67 @@
 /* --- Definitions of webfonts --- */
+
 @font-face {
-    font-family: CMUroman;
-    src: url(./cmuserif_roman/cmunrm-webfont.woff);
+    font-family: Modern;
+    src: url(./computer-modern-roman.woff);
 }
 
 @font-face {
-    font-family: CMUbold;
-    src: url(./cmuserif_bold/cmunbx-webfont.woff);
+    font-family: Modern;
+    src: url(./computer-modern-bold.woff);
+    font-weight: bold;
 }
 
 @font-face {
-    font-family: CMUitalic;
-    src: url(./cmuserif_oblique/cmunti-webfont.woff);
+    font-family: Modern;
+    src: url(./computer-modern-italic.woff);
+    font-style: italic;
 }
 
 @font-face {
-    font-family: CMUupright;
-    src: url(./cmuserif_uprightoblique/cmunui-webfont.woff);
+    font-family: ModernUpright;
+    src: url(./computer-modern-upright.woff);
 }
 
 /* --- Styles of containers --- */
-.paper {
+#paper {
+    font-family: Modern, Georgia;
+    font-size: 12pt;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 120%;
     margin-left: 20%;
     width: 70%;
+    transition: margin-left 0.5s;
 }
 
-.sidebar {
-    width: 140px;
+#sidebar {
+    font-family: ModernUpright, Georgia;
+    font-size: 13pt;
+    text-align: left;
+    width: 125px;
     height: 90%;
     position: fixed;
+    left: 5px;
     margin: 10px 10px;
     background-image: linear-gradient(linen, white);
     border-radius: 5pt;
     box-shadow: 0 4px 8px 0 lightgray;
     overflow: hidden;
+    transition: left 0.5s;
+}
+
+.title {
+    font-family: ModernUpright, Georgia;
+    font-size: 25pt;
+    text-align: left;
+}
+
+.info {
+    font-family: ModernUpright, Georgia;
+    font-size: 12pt;
+    margin: 10pt 0pt;
+    color: gray;
+    text-align: left;
 }
 
 .vspace {
@@ -41,16 +69,7 @@
 }
 
 /* --- Styles for text constructions --- */
-body {
-    font-family: CMUroman, Georgia;
-    font-size: 12pt;
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 120%;
-}
-
 h1 {
-    font-family: CMUbold;
     font-size: 18pt;
     text-align: left;
     margin-top: 15pt;
@@ -58,7 +77,6 @@ h1 {
 }
 
 h2 {
-    font-family: CMUbold;
     font-size: 16pt;
     text-align: left;
     margin-top: 10pt;
@@ -66,7 +84,6 @@ h2 {
 }
 
 h3 {
-    font-family: CMUbold;
     font-size: 14pt;
     text-align: left;
     margin-top: 8pt;
@@ -78,23 +95,10 @@ p {
     margin-bottom: 6pt;
 }
 
-p.title {
-    font-family: CMUupright, Georgia;
-    font-size: 25pt;
-    text-align: left;
-}
-
-p.info {
-    font-family: CMUupright, Georgia;
-    font-size: 12pt;
-    margin: 10pt 0pt;
-    color: gray;
-    text-align: left;
-}
-
 table {
     border: 1px solid black;
     border-collapse: collapse;
+    margin: 10px 3px;
 }
 
 td, th {
@@ -103,12 +107,8 @@ td, th {
 }
 
 code {
-    font-family: Menlo, "Courier New";
+    font-family: "Courier", "Courier New";
     font-size: 11pt;
-}
-
-em {
-    font-family: CMUitalic, Georgia;
 }
 
 blockquote {
@@ -122,10 +122,8 @@ blockquote {
 /* --- Styles for hyperlinks (hence also buttons) --- */
 a {
     text-decoration: none;
-}
-
-a:link {
     color: chocolate;
+    transition: 0.3s;
 }
 
 a:visited {
@@ -136,17 +134,14 @@ a:hover {
     color: coral;
 }
 
-.sidebar a {
-    font-family: CMUupright, Georgia;
-    font-size: 13pt;
+#sidebar a {
     color: black;
-    text-align: left;
     border-left: 3px solid lightsalmon;
     padding: 2px 7px;
     margin: 3px 0px;
     display: block;
 }
 
-.sidebar a:hover {
+#sidebar a:hover {
     background-color: bisque;
 }
