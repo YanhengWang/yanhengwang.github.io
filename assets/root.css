@@ -29,7 +29,7 @@
     text-align: justify;
     text-justify: inter-word;
     line-height: 120%;
-    margin-left: 20%;
+    margin-left: 15%;  /*temporarily!! should be 20%*/
     width: 70%;
     transition: margin-left 0.5s;
 }
@@ -41,7 +41,7 @@
     width: 125px;
     height: 90%;
     position: fixed;
-    left: 5px;
+    left: -100px;  /*temporarily!! should be 5px*/
     margin: 10px 10px;
     background-image: linear-gradient(linen, white);
     border-radius: 5pt;
@@ -104,6 +104,16 @@ table {
 td, th {
     padding: 5px 10px;
     border-bottom: 1px solid black;
+}
+
+ul, ol{
+    margin-top: 3pt;
+    margin-bottom: 5pt;
+    padding-left: 25pt;
+}
+
+li {
+    margin-bottom: 3pt;
 }
 
 code {

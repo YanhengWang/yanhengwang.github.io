@@ -1,8 +1,7 @@
 // configure MathJax environment and macros
 window.MathJax = {
-    chtml: { scale: 0.9 },
+    chtml: { scale: 0.918 },
     tex: {
-        inlineMath: [['$', '$'], ["\\(", "\\)"]],
         processEscapes: true,
         processEnvironments: false,
         macros: {
