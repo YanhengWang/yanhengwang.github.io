@@ -25,10 +25,10 @@ window.MathJax = {
 var expanded = true;
 function toggle_sidebar(){
     if(expanded){
-        document.getElementById("sidebar").style.left = "-100px";
+        document.getElementById("sidebar").style.left = "-95px";
         document.getElementById("paper").style.marginLeft = "15%";
     }else{
-        document.getElementById("sidebar").style.left = "5px";
+        document.getElementById("sidebar").style.left = "15px";
         document.getElementById("paper").style.marginLeft = "20%";
     }
     expanded = !expanded;

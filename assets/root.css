@@ -29,7 +29,8 @@
     text-align: justify;
     text-justify: inter-word;
     line-height: 120%;
-    margin-left: 15%;  /*temporarily!! should be 20%*/
+    margin-left: 20%;
+    padding-top: 32pt;
     width: 70%;
     transition: margin-left 0.5s;
 }
@@ -38,11 +39,11 @@
     font-family: ModernUpright, Georgia;
     font-size: 13pt;
     text-align: left;
-    width: 125px;
-    height: 90%;
     position: fixed;
-    left: -100px;  /*temporarily!! should be 5px*/
-    margin: 10px 10px;
+    left: 15px;
+    top: 30px;
+    width: 125px;
+    height: 80%;
     background-image: linear-gradient(linen, white);
     border-radius: 5pt;
     box-shadow: 0 4px 8px 0 lightgray;
@@ -65,7 +66,7 @@
 }
 
 .vspace {
-    padding-top: 20pt;
+    height: 16pt;
 }
 
 /* --- Styles for text constructions --- */

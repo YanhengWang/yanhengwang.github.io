@@ -1,17 +1,24 @@
 ---
 layout: root
 ---
-<html>
-    <head>
-        <title>{{ page.title }}</title>
-    </head>
-    <body>
-        <div class="vspace"></div>
-        {% if page.date %}
-        <p class="info">{{ page.date }}</p>
-        {% endif %}
-        <p class="title"><u>{{ page.title }}</u></p>
-        <div class="vspace"></div>
-        {{ content }}
-    </body>
-</html>
+<head>
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    {% if page.date %}
+    <p class="info">{{ page.date }}</p>
+    {% endif %}
+    
+    <p class="title"><u>{{ page.title }}</u></p>
+    
+    <div class="vspace"></div>
+    
+    {% if page.preamble %}
+    <div style="display:none;">
+        <!-- The LaTeX preamble -->
+        $$ {{ page.preamble }} $$
+    </div>
+    {% endif %}
+    
+    {{ content }}
+</body>
