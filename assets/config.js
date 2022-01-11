@@ -1,6 +1,5 @@
 // configure MathJax environment and macros
 window.MathJax = {
-    chtml: { scale: 0.918 },
     tex: {
         processEscapes: true,
         processEnvironments: false,
