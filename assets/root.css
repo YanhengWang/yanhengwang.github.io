@@ -27,7 +27,6 @@
     font-family: Modern, Georgia;
     font-size: 12pt;
     text-align: justify;
-    text-justify: inter-word;
     line-height: 120%;
     margin-left: 20%;
     padding-top: 32pt;
@@ -125,9 +124,10 @@ code {
 blockquote {
     margin: 10px 10px;
     padding: 3px 10px;
-    background: floralwhite;
+    background: linear-gradient(to right bottom, ivory, snow);
+    border-left: 3px solid lightsalmon;
     border-radius: 5pt;
-    box-shadow: 0 2px 4px 0 lightgray;
+    box-shadow: 0 2px 3px 0 lightgray;
 }
 
 /* --- Styles for hyperlinks (hence also buttons) --- */

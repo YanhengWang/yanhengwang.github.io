@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Geometry
+title: "Geometry: Combinatorics & Algorithms"
 ---
 
 # Planar Embeddings
@@ -28,6 +28,6 @@ title: Geometry
 # Convex Polytopes
 
 1. [Polytopes](./3-1.html)
-1. The main theorem
+1. [The main theorem](./3-2.html)
 1. Faces
 1. Counting faces

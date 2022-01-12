@@ -3,24 +3,24 @@ layout: page
 title: Notes
 ---
 
+# Geometry: Combinatorics & Algorithms
+
+Three main parts: planar graphs and their embeddings; triangulation of point sets; convex polytopes. [➤](./geometry)
+
 # Counting and Sampling
 
-The theory of Markov chain mixing times and their use in attacking counting/sampling combinatorial structures. [Details](./sampling)
+The theory of Markov chain mixing times and their use in attacking counting/sampling combinatorial structures. [➤](./sampling)
 
 # Theory of Computation
 
-Classical materials in formal languages, computability and basic complexity theory. [Details](./computation)
+Classical materials in formal languages, computability and basic complexity theory. [➤](./computation)
 
 # Programming Languages
 
-Features, designs and constructions of programming languages. [Details](./program-language)
-
-# Geometry
-
-Three main parts: planar graphs and their embeddings; triangulation of point sets; convex polytopes. [Details](./geometry)
+Features, designs and constructions of programming languages. [➤](./program-language)
 
 # Linear Algebra & Linear Programming
 
 > Still pending...
 
-A flexible introduction to linear algebra, with applications in linear programming. [Plan](./linear-algebra).
+A flexible introduction to linear algebra, with applications in linear programming. [➤](./linear-algebra)
