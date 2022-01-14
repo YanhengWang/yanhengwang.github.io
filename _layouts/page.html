@@ -21,4 +21,14 @@ layout: root
     {% endif %}
     
     {{ content }}
+
+    <div class="vspace"></div>
+
+    <div class="info" style="text-align:right">
+        {% if page.returnPage %}
+        <a href="{{ page.returnPage }}">Return↩︎</a>
+        {% else %}
+        <a href="../">Return↩︎</a>
+        {% endif %}
+    </div>
 </body>

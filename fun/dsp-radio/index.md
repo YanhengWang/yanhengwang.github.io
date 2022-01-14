@@ -20,11 +20,9 @@ Since I didn't plan to equip the radio receiver with a speaker, any low-power he
 
 # Gallery
 
-<img src="./1.jpg" width="50%">
+![](./1.jpg){:width="50%"}
 
-<img src="./2.jpg" width="50%">
+![](./2.jpg){:width="50%"}
 
-<img src="./3.jpg" width="50%">
-
-[Back](../)
+![](./3.jpg){:width="50%"}
 

@@ -28,7 +28,7 @@ title: "Geometry: Combinatorics & Algorithms"
 # Convex Polytopes
 
 1. [Polytopes](./3-1.html)
-1. [The main theorem](./3-2.html)
-1. [The Farkas' lemma](./3-3.html)
+1. [Main theorem](./3-2.html)
+1. [Farkas' lemma](./3-3.html)
 1. [Face Lattice](./3-4.html)
 1. Counting faces

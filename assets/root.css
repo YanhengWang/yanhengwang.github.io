@@ -68,6 +68,12 @@
     height: 16pt;
 }
 
+.centering {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* --- Styles for text constructions --- */
 h1 {
     font-size: 18pt;
