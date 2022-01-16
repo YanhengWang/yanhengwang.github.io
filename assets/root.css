@@ -24,7 +24,7 @@
 
 /* --- Styles of containers --- */
 #paper {
-    font-family: Modern, Georgia;
+    font-family: Modern, serif;
     font-size: 12pt;
     text-align: justify;
     line-height: 120%;
@@ -35,7 +35,7 @@
 }
 
 #sidebar {
-    font-family: ModernUpright, Georgia;
+    font-family: ModernUpright, serif;
     font-size: 13pt;
     text-align: left;
     position: fixed;
@@ -51,13 +51,13 @@
 }
 
 .title {
-    font-family: ModernUpright, Georgia;
+    font-family: ModernUpright, serif;
     font-size: 25pt;
     text-align: left;
 }
 
 .info {
-    font-family: ModernUpright, Georgia;
+    font-family: ModernUpright, serif;
     font-size: 12pt;
     margin: 10pt 0pt;
     color: gray;
