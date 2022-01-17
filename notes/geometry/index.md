@@ -3,29 +3,32 @@ layout: page
 title: "Geometry: Combinatorics & Algorithms"
 ---
 
-# Planar Embeddings
+> These notes are based on a [course under the same title](https://www.ti.inf.ethz.ch/ew/courses/Geo21/index.html) at ETH Zurich, plus some personal readings. The main sources are the lecture notes of the course, *Graph Theory* by Reinhard Diestel, and *Lectures on Polytopes* by Günter M. Ziegler. 
+> The first two parts are handwritten. The third part is available in html format.
 
-1. Planarity
-1. Euler's formula
-1. Planarity test
-1. Maximal planar graphs & triangulation
-1. Unique embedding
-1. Straightening an embedding
-1. Crossing number
+# I. Planar Embeddings
 
-# Geometry of 2D/3D Points and Lines
+1. [Planarity](./1-1.pdf)
+1. [Euler's formula](./1-2.pdf)
+1. [Planarity test](./1-3.pdf)
+1. [Maximal planar graphs & triangulation](./1-4.pdf)
+1. [Unique embedding](./1-5.pdf)
+1. [Straightening an embedding](./1-6.pdf)
+1. [Crossing number](./1-7.pdf)
 
-1. Polygons
-1. Convexity
-1. Convex hulls
-1. Algorithms for 2D convex hulls
-1. Detour: Jensen's inequality
-1. Triangulation of point sets
-1. Delaunay triangulation
-1. Voronoi diagram
-1. Duality & line arrangement
+# II. Geometry of 2D/3D Points and Lines
 
-# Convex Polytopes
+1. [Polygons](./2-1.pdf)
+1. [Convexity](./2-2.pdf)
+1. [Convex hulls](./2-3.pdf)
+1. [Algorithms for 2D convex hulls](./2-4.pdf)
+1. [Detour: Jensen's inequality](./2-5.pdf)
+1. [Triangulation of point sets](./2-6.pdf)
+1. [Delaunay triangulation](./2-7.pdf)
+1. [Voronoi diagram](./2-8.pdf)
+1. [Duality & line arrangement](./2-9.pdf)
+
+# III. Convex Polytopes
 
 1. [Polytopes](./3-1.html)
 1. [Main theorem](./3-2.html)
