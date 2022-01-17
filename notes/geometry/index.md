@@ -3,8 +3,9 @@ layout: page
 title: "Geometry: Combinatorics & Algorithms"
 ---
 
-> These notes are based on a [course under the same title](https://www.ti.inf.ethz.ch/ew/courses/Geo21/index.html) at ETH Zurich, plus some personal readings. The main sources are the lecture notes of the course, *Graph Theory* by Reinhard Diestel, and *Lectures on Polytopes* by Günter M. Ziegler. 
-> The first two parts are handwritten. The third part is available in html format.
+> These notes are based on a [course under the same title](https://www.ti.inf.ethz.ch/ew/courses/Geo21/index.html) at ETH Zurich, plus some personal readings. The main sources are the lecture notes of the course, *Graph Theory* by Reinhard Diestel, and *Lectures on Polytopes* by Günter M. Ziegler.
+> 
+> Parts I and II are handwritten. Part III is available in html format.
 
 # I. Planar Embeddings
 
