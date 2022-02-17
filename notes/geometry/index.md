@@ -17,7 +17,7 @@ title: "Geometry: Combinatorics & Algorithms"
 1. [Straightening an embedding](./1-6.pdf)
 1. [Crossing number](./1-7.pdf)
 
-# II. Geometry of 2D/3D Points and Lines
+# II. Geometry of 2D Points and Lines
 
 1. [Polygons](./2-1.pdf)
 1. [Convexity](./2-2.pdf)
@@ -27,7 +27,8 @@ title: "Geometry: Combinatorics & Algorithms"
 1. [Triangulation of point sets](./2-6.pdf)
 1. [Delaunay triangulation](./2-7.pdf)
 1. [Voronoi diagram](./2-8.pdf)
-1. [Duality & line arrangement](./2-9.pdf)
+1. [Fast construction of Delaunay](./2-9.html)
+1. [Duality & line arrangement](./2-10.pdf)
 
 # III. Convex Polytopes
 

@@ -5,7 +5,11 @@ title: Notes
 
 # Geometry: Combinatorics & Algorithms
 
-> A broad coverage of topics in discrete geometry, with an eye to both combinatorial properties and computational aspects. The notes are divided into three parts: planar embeddings, points and lines in 2D/3D, and convex polytopes. [➤](./geometry)
+> A broad coverage of topics in discrete geometry, with an eye to both combinatorial properties and computational aspects. The notes are divided into three parts: planar embeddings, points and lines in 2D, and convex polytopes. [➤](./geometry)
+
+# Algebraic Tools in Combinatorics
+
+> See algebra *in action* via bags of applications. Three genres of tools are collected: dimensional argument, roots of equation systems, and graph spectrum. [➤](./algebraic-tools)
 
 # Linear Algebra & Linear Programming
 
