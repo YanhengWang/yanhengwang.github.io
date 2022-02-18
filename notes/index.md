@@ -5,7 +5,7 @@ title: Notes
 
 # Geometry: Combinatorics & Algorithms
 
-> A broad coverage of topics in discrete geometry, with an eye to both combinatorial properties and computational aspects. The notes are divided into three parts: planar embeddings, points and lines in 2D, and convex polytopes. [➤](./geometry)
+> A broad sample of discrete geometry, with an eye to both combinatorial properties and computational aspects. The notes are divided into three parts: planar embeddings, points and lines in 2D, and convex polytopes. [➤](./geometry)
 
 # Algebraic Tools in Combinatorics
 
@@ -25,4 +25,4 @@ title: Notes
 
 # Counting and Sampling
 
-> A mixture of notes that collect cool ideas of attacking counting/sampling problems. The main theme is about Markov chain mixing times, but some analytic tools are also included. [➤](./sampling)
+> A mixture of notes that collect cool ideas of attacking counting/sampling problems. The main theme is about Markov chain Monte Carlo, but some analytic tools are also included. [➤](./sampling)
