@@ -5,7 +5,7 @@ title: Research & Projects
 
 # Jensen's Inequality, Partition Functions, and Models with Ternary Interactions
 
-- Supervisor: Prof. Dominik Scheder
+- Undergraduate thesis supervised by Prof. Dominik Scheder
 - Developed lower and upper bounds for the PPZ algorithm on regular critical clause structure
 - Reveals behaviour of the PPZ algorithm on large-girth formulas
 

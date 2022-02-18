@@ -18,5 +18,4 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Yanheng Wang's Homepage
-github_username: YanhengWang
+title: Yanheng Wang | 王彦恒
