@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Counting & Sampling
+layout: linear
+title: "Counting & Sampling"
+about: "A mixture of notes that collect cool ideas of attacking counting/sampling problems. The main theme is about Markov chain Monte Carlo, but some analytic tools are also included."
 ---
 
 - [Markov Chain Toolbox](./MC-toolbox.pdf)

@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: linear
 title: "Geometry: Combinatorics & Algorithms"
+about: "A broad sample of discrete geometry, with an eye to both combinatorial properties and computational aspects."
 ---
 
 > These notes are based on a [course under the same title](https://www.ti.inf.ethz.ch/ew/courses/Geo21/index.html) at ETH Zürich, plus some personal readings. The main sources are the lecture notes of the course, *Graph Theory* by Reinhard Diestel, and *Lectures on Polytopes* by Günter M. Ziegler.

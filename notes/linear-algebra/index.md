@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Linear Algebra & Linear Programming
+layout: linear
+title: "Linear Algebra & Linear Programming"
+about: "Pending... Intends to convey the intuitions in linear algebra and the methodology of transferring them to formal arguments. The theory of linear programming contributes a working example."
 ---
 
 This series aims at exploring the intuitions and cores of linear systems. In particular, I hope to interleave my accounts on linear algebra with linear programming -- a rich field of great theoretical significance that relies heavily on linear algebra. The reference materials that I'm using are

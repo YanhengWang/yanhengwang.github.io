@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: linear
 date: August 2018
 title: DSP Radio Receiver
 ---

@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: linear
 title: Algebraic Tools in Combinatorics
+about: "See algebra in action via bags of applications. Three genres of tools are collected: dimensional argument, roots of equation systems, and graph spectrum."
 ---
 
 > These notes are based on a course by Prof. Benny Sudakov at ETH Zürich.

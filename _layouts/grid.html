@@ -1,0 +1,34 @@
+---
+layout: root
+---
+<head>
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <p class="title"><u>{{ page.title }}</u></p>
+    
+    <div class="vspace"></div>
+
+    <div style="width:60%; text-align:left">
+        {% assign base = page.dir | remove: "/" %}
+        {% for x in site.pages %}
+        {% if x.path != page.path and x.name == "index.md" and x.path contains base %}
+        <blockquote>
+            <h3>{{x.title}}</h2>
+            {{x.about}}
+            <a href="{{ x.url }}">➤</a>
+        </blockquote>
+        {% endif %}
+        {% endfor %}
+    </div>
+    
+    <div class="vspace"></div>
+
+    <div class="info" style="text-align:right">
+        {% if page.returnPage %}
+        <a href="{{ page.returnPage }}">Return↩︎</a>
+        {% else %}
+        <a href="../">Return↩︎</a>
+        {% endif %}
+    </div>
+</body>

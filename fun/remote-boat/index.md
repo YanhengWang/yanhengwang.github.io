@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: linear
 date: November 2019
 title: Remote Control Boat
 ---

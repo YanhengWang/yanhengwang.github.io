@@ -1,7 +1,4 @@
 ---
-layout: page
+layout: grid
 title: Fun Stuffs
 ---
-
-- [DSP Radio Receiver](./dsp-radio)
-- [Remote Control Boat](./remote-boat)
