@@ -64,6 +64,22 @@
     text-align: left;
 }
 
+.card {
+    float: left;
+    width: 40%;
+    margin: 15px;
+    padding: 0 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px lightgray;
+    color: black;
+    text-align: left;
+    transition: 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px lightgray;
+}
+
 .vspace {
     height: 16pt;
 }
@@ -76,24 +92,24 @@
 
 /* --- Styles for text constructions --- */
 h1 {
-    font-size: 18pt;
+    font-size: 16pt;
     text-align: left;
-    margin-top: 15pt;
-    margin-bottom: 12pt;
+    margin-top: 13pt;
+    margin-bottom: 11pt;
 }
 
 h2 {
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: left;
     margin-top: 10pt;
-    margin-bottom: 10pt;
+    margin-bottom: 8pt;
 }
 
 h3 {
-    font-size: 14pt;
+    font-size: 12pt;
     text-align: left;
-    margin-top: 8pt;
-    margin-bottom: 8pt;
+    margin-top: 6pt;
+    margin-bottom: 5pt;
 }
 
 p {

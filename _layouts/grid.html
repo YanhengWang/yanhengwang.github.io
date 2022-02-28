@@ -8,27 +8,21 @@ layout: root
     <p class="title"><u>{{ page.title }}</u></p>
     
     <div class="vspace"></div>
-
-    <div style="width:60%; text-align:left">
-        {% assign base = page.dir | remove: "/" %}
-        {% for x in site.pages %}
-        {% if x.path != page.path and x.name == "index.md" and x.path contains base %}
-        <blockquote>
-            <h3>{{x.title}}</h2>
+    
+    {% assign base = page.dir | remove: "/" %}
+    {% for x in site.pages %}
+    {% if x.path != page.path and x.name == "index.md" and x.path contains base %}
+    <a href="{{ x.url }}">
+        <div class="card">
+            <h3>{{x.title}}</h3>
             {{x.about}}
-            <a href="{{ x.url }}">➤</a>
-        </blockquote>
-        {% endif %}
-        {% endfor %}
+        </div>
+    </a>
+    {% endif %}
+    {% endfor %}
+
+    <div class="info" style="clear:both; text-align:right">
+        <a href="../">Return↩︎</a>
     </div>
     
-    <div class="vspace"></div>
-
-    <div class="info" style="text-align:right">
-        {% if page.returnPage %}
-        <a href="{{ page.returnPage }}">Return↩︎</a>
-        {% else %}
-        <a href="../">Return↩︎</a>
-        {% endif %}
-    </div>
 </body>
