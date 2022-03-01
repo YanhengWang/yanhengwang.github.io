@@ -10,7 +10,8 @@ layout: root
     <div class="vspace"></div>
     
     {% assign base = page.dir | remove: "/" %}
-    {% for x in site.pages %}
+    {% assign list = site.pages | sort: "title" %}
+    {% for x in list %}
     {% if x.path != page.path and x.name == "index.md" and x.path contains base %}
     <a href="{{ x.url }}">
         <div class="card">
