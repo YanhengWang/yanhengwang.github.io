@@ -8,7 +8,8 @@ about: (ongoing series)
 
 - [Reflections on signatures](./1.html)
 - [Digital signature schemes](./2.html)
+- [One-way functions](./3.html)
 
 # Constructions
 
-- [Lamport's one-time signature](./3.html)
+- [One-time secure schemes](./4.html)

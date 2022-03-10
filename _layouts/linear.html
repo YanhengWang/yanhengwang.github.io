@@ -5,6 +5,13 @@ layout: root
     <title>{{ page.title }}</title>
 </head>
 <body>
+    {% if page.preamble %}
+    <div style="display:none;">
+        <!-- The LaTeX preamble -->
+        $$ {{ page.preamble }} $$
+    </div>
+    {% endif %}
+
     {% if page.date %}
     <p class="info">{{ page.date }}</p>
     {% endif %}
@@ -12,16 +19,7 @@ layout: root
     <p class="title"><u>{{ page.title }}</u></p>
     
     <div class="vspace"></div>
-    
-    {% if page.preamble %}
-    <div style="display:none;">
-        <!-- The LaTeX preamble -->
-        $$ {{ page.preamble }} $$
-    </div>
-    {% endif %}
-    
     {{ content }}
-
     <div class="vspace"></div>
 
     <div class="info" style="text-align:right">
