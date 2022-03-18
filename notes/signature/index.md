@@ -12,4 +12,5 @@ about: (ongoing series)
 
 # Constructions
 
-- [One-time secure schemes](./4.html)
+- [∃CM<sup>1</sup> secure schemes](./4.html)
+- [∃CM secure schemes](./5.html)
