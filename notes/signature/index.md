@@ -14,4 +14,4 @@ about: (ongoing series)
 
 - [∃CM<sup>1</sup> secure schemes](./4.html)
 - [∃CM<sup>1</sup> ⟹ ∃CM](./5.html)
-- ∃CM ⟹ ∃CM<sup>+</sup>
+- [∃CM ⟹ ∃CM<sup>+</sup>](./6.html)
