@@ -19,6 +19,6 @@ about: A deep dive into digital signature schemes with formal definitions and pr
 
 # Performance and Feature!
 
-- [RSA schemes](./8,html)
+- [RSA schemes](./8.html)
 - [Chameleon schemes](./9.html)
 - [Pairing schemes](./10.html)
