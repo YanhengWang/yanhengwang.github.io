@@ -178,3 +178,24 @@ a:hover {
 #sidebar a:hover {
     background-color: bisque;
 }
+
+/* --- Printer settings --- */
+@media print {
+    @page {
+        size: a4;
+        margin-top: 1.3cm;
+        margin-bottom: 1.3cm;
+        margin-left: 1.5cm;
+        margin-right: 1.5cm;
+    }
+    * {
+        visibility: hidden;
+    }
+    #paper * {
+        visibility: visible;
+    }
+    #paper {
+        margin-left: 0;
+        width: 100%;
+    }
+}
