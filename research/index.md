@@ -3,9 +3,16 @@ layout: linear
 title: Research & Projects
 ---
 
+# A Perfect Sampler for Hypergraph Independent Sets
+
+- With Guoliang Qiu and Chihao Zhang
+- Based on the systematic scan Markov chain and the "coupling from the past" paradigm
+- Works almost up to hardness bound when the hypergraph is uniform and regular
+- [PDF](https://drops.dagstuhl.de/opus/volltexte/2022/16444/) &#124; [slides](./hyper-ind-set.pdf)
+
 # Jensen's Inequality, Partition Functions, and Models with Ternary Interactions
 
-- My undergraduate thesis; supervisor: Prof. Dominik Scheder
+- My undergraduate thesis, supervised by Prof. Dominik Scheder
 - Builds lower and upper bounds for the PPZ algorithm on regular critical clause structure
 - Reveals behaviour of the PPZ algorithm on large-girth formulas
 
@@ -20,4 +27,4 @@ title: Research & Projects
 
 - Formalises the computation model in the game *Manufactoria*
 - Proves Turing completeness and discusses other aspects of its computing power
-- [The game](http://pleasingfungus.com/Manufactoria/) &#124; [PDF manuscript](./Manufactoria.pdf)
+- [Manuscript](./Manufactoria.pdf) &#124; [The game](http://pleasingfungus.com/Manufactoria/)
