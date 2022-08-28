@@ -1,6 +1,6 @@
 ---
 layout: linear
-date: September 2019--January 2020
+date: September 2019–January 2020
 title: Theory of Computation
 about: "Classical materials in formal languages, automata, computability and basic complexity theory."
 ---

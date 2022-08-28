@@ -1,6 +1,6 @@
 ---
 layout: linear
-date: February--June 2020
+date: February–June 2020
 title: Programming Languages
 about: "Theoretical studies of the design and construction of a programming language, with emphasis on typing systems."
 ---
