@@ -10,17 +10,17 @@ layout: root
 
     <table><tr>
          <td width="400pt">
-             <div style="font-family:ModernUpright; text-align:left; ">
-             {{ page.about }}
+            <div style="font-family:ModernUpright; text-align:left; ">
+            {{ page.about }}
             </div>
          </td>
          <td width="200pt">
-             <img src="{{ page.photo }}" style="width:100%; border-radius:5pt;">
+            <img src="{{ page.photo }}" style="width:100%; border-radius:5pt;">
+            {% if page.courtesy %}
+            <div style="font-family:ModernUpright; font-size: 10pt; color: grey; text-align: center;">
+            photograph by {{ page.courtesy }}
+            </div>
+            {% endif %}
          </td>
     </tr></table>
-
-    <div class="card">
-        <h2>What's New</h2>
-        {{ page.new }}
-    </div>
 </body>
