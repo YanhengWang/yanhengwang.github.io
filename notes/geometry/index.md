@@ -1,6 +1,6 @@
 ---
 layout: linear
-date: September 2021-February 2022
+date: September 2021--February 2022
 title: "Geometry: Combinatorics & Algorithms"
 about: "A broad sample of discrete geometry, with an eye to both combinatorial properties and computational aspects."
 ---

@@ -1,5 +1,6 @@
 ---
 layout: linear
+date: March--June 2022
 title: Digital Signatures
 about: A deep dive into digital signature schemes with formal definitions and proofs.
 ---
