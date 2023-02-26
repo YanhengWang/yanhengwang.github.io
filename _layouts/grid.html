@@ -5,25 +5,25 @@ layout: root
     <title>{{ page.title }}</title>
 </head>
 <body>
-    <p class="title"><u>{{ page.title }}</u></p>
-    
+    <p class="title">{{ page.title }}</p>
     <div class="vspace"></div>
-    
-    {% assign base = page.dir | remove: "/" %}
-    {% assign list = site.pages | sort: "title" %}
-    {% for x in list %}
-    {% if x.path != page.path and x.path contains base and x.name == "index.md" %}
-    <a href="{{ x.url }}">
+
+    <div style="display: flex; flex-flow: row wrap; align-items: stretch;">
+        {% assign base = page.dir | remove: "/" %}
+        {% assign list = site.pages | sort: "title" %}
+        {% for x in list %}
+        {% if x.path != page.path and x.path contains base and x.name == "index.md" %}
         <div class="card">
-            <h3>{{x.title}}</h3>
+            <a href="{{ x.url }}">
+                <h3>{{x.title}}</h3>
+            </a>
             {{x.about}}
         </div>
-    </a>
-    {% endif %}
-    {% endfor %}
+        {% endif %}
+        {% endfor %}
+    </div>
 
-    <div class="info" style="clear:both; text-align:right">
+    <div class="info" style="text-align: right">
         <a href="../">Return↩︎</a>
     </div>
-    
 </body>

@@ -16,13 +16,13 @@ layout: root
     <p class="info">{{ page.date }}</p>
     {% endif %}
     
-    <p class="title"><u>{{ page.title }}</u></p>
+    <p class="title">{{ page.title }}</p>
     
     <div class="vspace"></div>
     {{ content }}
     <div class="vspace"></div>
 
-    <div class="info" style="text-align:right">
+    <div class="info" style="text-align: right">
         {% if page.returnPage %}
         <a href="{{ page.returnPage }}">Return↩︎</a>
         {% else %}

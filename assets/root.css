@@ -1,31 +1,31 @@
 /* --- Definitions of webfonts --- */
 
 @font-face {
-    font-family: Modern;
-    src: url(./computer-modern-roman.woff);
+    font-family: Gentium;
+    src: url(./gentium-regular.woff);
 }
 
 @font-face {
-    font-family: Modern;
-    src: url(./computer-modern-bold.woff);
+    font-family: Gentium;
+    src: url(./gentium-bold.woff);
     font-weight: bold;
 }
 
 @font-face {
-    font-family: Modern;
-    src: url(./computer-modern-italic.woff);
+    font-family: Gentium;
+    src: url(./gentium-italic.woff);
     font-style: italic;
 }
 
 @font-face {
-    font-family: ModernUpright;
-    src: url(./computer-modern-upright.woff);
+    font-family: Schola;
+    src: url(./gentium-regular.woff);
 }
 
 /* --- Styles of containers --- */
 #paper {
-    font-family: Modern, serif;
-    font-size: 12pt;
+    font-family: Gentium, serif;
+    font-size: 13pt;
     text-align: justify;
     line-height: 120%;
     margin-left: 20%;
@@ -35,29 +35,29 @@
 }
 
 #sidebar {
-    font-family: ModernUpright, serif;
-    font-size: 13pt;
+    font-family: Schola, serif;
+    font-size: 14pt;
     text-align: left;
     position: fixed;
     left: 15px;
     top: 30px;
-    width: 125px;
-    height: 80%;
+    width: 120px;
+    height: 400px;
     background-image: linear-gradient(linen, white);
-    border-radius: 5pt;
+    border-radius: 5px;
     box-shadow: 0 4px 8px 0 lightgray;
     overflow: hidden;
     transition: left 0.5s;
 }
 
 .title {
-    font-family: ModernUpright, STKaiti, serif;
+    font-family: Schola, STKaiti, serif;
     font-size: 25pt;
     text-align: left;
 }
 
 .info {
-    font-family: ModernUpright, serif;
+    font-family: Schola, serif;
     font-size: 12pt;
     margin: 10pt 0pt;
     color: gray;
@@ -65,14 +65,14 @@
 }
 
 .card {
-    float: left;
-    width: 40%;
-    margin: 15px;
-    padding: 0 10px 10px 10px;
+    width: 250px;
+    margin: 8px;
+    padding: 2px 15px 15px 15px;
     border-radius: 5px;
     box-shadow: 0 2px 3px lightgray;
     color: black;
     text-align: left;
+    user-select: none;
     transition: 0.2s;
 }
 
@@ -92,28 +92,28 @@
 
 /* --- Styles for text constructions --- */
 h1 {
-    font-size: 16pt;
+    font-size: 18pt;
     text-align: left;
-    margin-top: 13pt;
-    margin-bottom: 11pt;
+    margin-top: 18pt;
+    margin-bottom: 15pt;
 }
 
 h2 {
+    font-size: 16pt;
+    text-align: left;
+    margin-top: 14pt;
+    margin-bottom: 12pt;
+}
+
+h3 {
     font-size: 14pt;
     text-align: left;
     margin-top: 10pt;
     margin-bottom: 8pt;
 }
 
-h3 {
-    font-size: 12pt;
-    text-align: left;
-    margin-top: 6pt;
-    margin-bottom: 5pt;
-}
-
 p {
-    margin-top: 3pt;
+    margin-top: 4pt;
     margin-bottom: 6pt;
 }
 
@@ -140,7 +140,7 @@ li {
 
 code {
     font-family: "Courier", "Courier New";
-    font-size: 11pt;
+    font-size: 12pt;
 }
 
 blockquote {
@@ -148,7 +148,7 @@ blockquote {
     padding: 3px 10px;
     background: linear-gradient(to right bottom, ivory, snow);
     border-left: 3px solid lightsalmon;
-    border-radius: 5pt;
+    border-radius: 5px;
     box-shadow: 0 2px 3px 0 lightgray;
 }
 
@@ -156,7 +156,7 @@ blockquote {
 a {
     text-decoration: none;
     color: chocolate;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 a:visited {
@@ -169,14 +169,13 @@ a:hover {
 
 #sidebar a {
     color: black;
-    border-left: 3px solid lightsalmon;
-    padding: 2px 7px;
-    margin: 3px 0px;
+    padding: 2px 10px;
     display: block;
 }
 
 #sidebar a:hover {
     background-color: bisque;
+    border-left: 3px solid lightsalmon;
 }
 
 /* --- Printer settings --- */
