@@ -5,7 +5,7 @@ title: Programming Languages
 about: "Theoretical studies of the design and construction of a programming language, with emphasis on typing systems."
 ---
 
-> This series of notes (in Chinese) roughly follows the textbook *Types and Programming Languages* by Benjamin Pierce and a course by Kenny Zhu. I put particular stress in the motivation and step-by-step development of each topic.
+> This series of notes (in Chinese) roughly follows the textbook *Types and Programming Languages* by Benjamin Pierce and a course by Kenny Zhu.
 
 1. [Inductive definition and proof](./1.pdf)
 1. [$$\lambda$$ calculus](./2.pdf)
