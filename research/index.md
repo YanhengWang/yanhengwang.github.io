@@ -13,6 +13,7 @@ title: Research & Projects
 
 - my bachelor thesis supervised by Prof. Dominik Scheder
 - builds lower and upper bounds for the PPZ algorithm on regular critical clause structure, and reveals its behaviour on large-girth formulas
+- [PDF](./bachelor-thesis.pdf) &#124; [slides](./bachelor-slides.pdf)
 
 # *SimPL*
 
