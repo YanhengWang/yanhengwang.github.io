@@ -1,7 +1,7 @@
 ---
 layout: linear
-title: "Miscellaneous Materials"
-about: "Short expositions on various topics in computer science theory."
+title: "Fragments"
+about: "Short expositions on various topics. Fit for a rainy afternoon."
 ---
 
 # Approximate Counting & Sampling
@@ -16,6 +16,10 @@ about: "Short expositions on various topics in computer science theory."
 
 - [Total variation distance](./variation-dist.html)
 - [Lovász local lemma: from probabilistic to constructive](./LLL.pdf)
+
+# Graphs
+
+- [Cographs](./cographs.html)
 
 # Cryptography
 
