@@ -2,9 +2,9 @@
 layout: home
 title: Home
 about: |-
-  <p>Welcome to my site, and feel free to look around!</p>
-  <p>I'm doing my Master degree in computer science at ETH Zürich. I finished my bachelor degree at Shanghai Jiao Tong University, supervised by Prof. Dominik Scheder and Prof. Chihao Zhang.</p>
-  <p>My interest lies in theoretical computer science, in particular discrete probability and combinatorial algorithms. I have been doing research in these areas: Markov chain Monte Carlo, Boolean satisfiability, and the exact matching problem.</p>
+  <p>Hey, it's nice to have you here!</p>
+  <p>I'm a PhD student at Saarland University, advised by Karl Bringmann. My interest lies in randomised and combinatorial algorithms. I had worked on Markov Chain Monte Carlo, Satisfiability, and Exact Matching. But as is often the case, the past is a biased estimator for the future.</p>
+  <p>I finished my master at ETH Zürich and my bachelor at Shanghai Jiao Tong University. I was fortunate to be supervised by Nicolas El Maalouly, Bernd Gärtner, Dominik Scheder and Chihao Zhang.</p>
 photo: /assets/me2.jpg
 courtesy:
 ---
