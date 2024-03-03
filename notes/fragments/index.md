@@ -17,6 +17,12 @@ about: "Short expositions on various topics. Fit for a rainy afternoon."
 - [Total variation distance](./variation-dist.html)
 - [Lovász local lemma: from probabilistic to constructive](./LLL.pdf)
 
+# Data Structure and Algorithms
+
+- [KMP string matching](./KMP.pdf)
+- [String suffixes](./suffix-array.pdf)
+- [SMAWK minimum search in monotone matrices](./SMAWK.pdf)
+
 # Graphs
 
 - [Cographs](./cographs.html)
