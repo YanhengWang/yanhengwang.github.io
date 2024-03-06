@@ -3,6 +3,12 @@ layout: linear
 title: Research & Projects
 ---
 
+# Exact Perfect Matching
+
+- my master thesis supervised by Prof. Bernd Gärtner and Nicolas El Maalouly
+- collection of (old and) new results about the Exact Perfect Matching problem from three frontiers: combinatorial, algebraic, and integer programming
+- [PDF](./master-thesis.pdf)
+
 # A Perfect Sampler for Hypergraph Independent Sets
 
 - with Guoliang Qiu and Chihao Zhang &#124; ICALP 2022
