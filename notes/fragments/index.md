@@ -12,10 +12,11 @@ about: "Short expositions on various topics. Fit for a rainy afternoon."
 - [A CFTP sampler for proper colourings](./CFTP-colouring.pdf)
 - [Barvinok's method](./Barvinok's.pdf)
 
-# Probability Theory
+# Discrete Probability
 
 - [Total variation distance](./variation-dist.html)
 - [Lovász local lemma: from probabilistic to constructive](./LLL.pdf)
+- [Precision sampling lemma](./precision-sampling.pdf)
 
 # Data Structure and Algorithms
 
