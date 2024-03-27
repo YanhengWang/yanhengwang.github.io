@@ -22,6 +22,7 @@ about: "Short expositions on various topics. Fit for a rainy afternoon."
 
 - [KMP string matching](./KMP.pdf)
 - [String suffixes](./suffix-array.pdf)
+- [Fast Fourier Transform](./FFT.pdf)
 - [SMAWK minimum search in monotone matrices](./SMAWK.pdf)
 
 # Graphs
