@@ -24,6 +24,7 @@ about: "Short expositions on various topics. Fit for a rainy afternoon."
 - [String suffixes](./suffix-array.pdf)
 - [Fast Fourier Transform](./FFT.pdf)
 - [SMAWK minimum search in monotone matrices](./SMAWK.pdf)
+- [The union-find structure](./union-find.pdf)
 
 # Graphs
 
