@@ -18,7 +18,7 @@ about: "Short expositions on various topics. Fit for a rainy afternoon."
 - [Lovász local lemma: from probabilistic to constructive](./LLL.pdf)
 - [Precision sampling lemma](./precision-sampling.pdf)
 
-# Data Structure and Algorithms
+# Data Structures & Algorithms
 
 - [KMP string matching](./KMP.pdf)
 - [String suffixes](./suffix-array.pdf)
@@ -29,6 +29,10 @@ about: "Short expositions on various topics. Fit for a rainy afternoon."
 # Graphs
 
 - [Cographs](./cographs.html)
+
+# Geometry
+
+
 
 # Cryptography
 
