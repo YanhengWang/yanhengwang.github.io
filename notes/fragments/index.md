@@ -32,7 +32,7 @@ about: "Short expositions on various topics. Fit for a rainy afternoon."
 
 # Geometry
 
-- [How Long Is the Daytime Today>](./daytime.html)
+- [How Long Is the Daytime Today?](./daytime.html)
 
 # Cryptography
 
