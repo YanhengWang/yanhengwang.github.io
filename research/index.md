@@ -3,10 +3,16 @@ layout: linear
 title: Research & Projects
 ---
 
+# Approximating Klee's Measure Problem and a Lower Bound for Union Volume Estimation
+
+- with Karl Bringmann, Kasper Green Larsen, André Nusser, and Eva Rotenberg &#124; SoCG 2025
+- for general union volume estimation, shows that the query complexity of Karp-Luby-Madra's classical algorithm is optimal
+- for the special case of Klee's measure problem, gives a faster algorithm in constant dimension
+
 # Exact Perfect Matching
 
 - my master thesis supervised by Prof. Bernd Gärtner and Nicolas El Maalouly
-- collection of (old and) new results about the Exact Perfect Matching problem from three frontiers: combinatorial, algebraic, and integer programming
+- collection of old and new results about the Exact Perfect Matching problem from three frontiers: combinatorial, algebraic, and integer programming
 - [PDF](./master-thesis.pdf)
 
 # A Perfect Sampler for Hypergraph Independent Sets
@@ -26,8 +32,3 @@ title: Research & Projects
 - design and implementation of a simple imperative+functional programming language
 - supports type inference, polymorphism, garbage collection, stream operation, and tail recursion optimisation
 - [GitHub](https://github.com/YanhengWang/SimPL)
-
-# Computing Power of the Game Manufactoria
-
-- discusses the model and power of the game *Manufactoria*
-- [PDF](./Manufactoria.pdf) &#124; [the game](http://pleasingfungus.com/Manufactoria/)

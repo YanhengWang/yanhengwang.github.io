@@ -34,6 +34,7 @@ about: "Short expositions on various topics. Fit for a rainy afternoon."
 
 - [How Long Is the Daytime Today?](./daytime.html)
 
-# Cryptography
+# Complexity & Cryptography
 
+- [Complexity of the game Manufactoria](./Manufactoria.pdf)
 - [Public key encryption schemes](./pk-encryption.pdf)
