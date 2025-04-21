@@ -1,0 +1,66 @@
+digraph reductions {
+	graph [nodesep=0.1]
+	node [fontname="Gentium Basic"; fontsize=11; shape=box; style=rounded; height=0.3]
+	edge [penwidth=2; arrowsize=0.5; color="grey", target="_top"]
+
+	sat [label="k-SAT"]
+	ov [label="Orthogonal Vector"]
+	apsp [label="All-Pair Shortest Path"]
+	sum3 [label="3-Sum"]
+
+	dom [label="k-Dominating Set"]
+	clique [label="k-Clique"]
+	subset_sum [label="Subset Sum"]
+	knapsack [label="Knapsack"]
+	hs [label="Hitting Set"]
+
+	diam [label="Diameter"]
+	regex [label="Regex Matching"]
+	lcs [label="LCS"]
+	ed [label="Edit Distance"]
+
+	mat_prod [label="Matrix Product"]
+	mat_prod_bool [label="Boolean Matrix Product"]
+	mat_prod_minplus [label="(Min,+) Matrix Product"]
+	conv_minplus [label="(Min,+) Convolution"]
+
+	tri [label="Triangle"]
+	tri_neg_v [label="Vertex Negative Triangle"]
+	tri_neg [label="Negative Triangle"]
+	tri_zero [label="Zero Triangle"]
+	min_k_cycle [label="Min k-Cycle"]
+	metric [label="Metricity"]
+	submat_sum [label="Min Submatrix"]
+	reach [label="All-Pair Reachability"]
+
+	sum3_conv [label="Convolution 3-Sum"]
+	collinear [label="Collinearity"]
+
+	sat -> {ov, dom, clique, subset_sum}
+	clique -> tri
+	hs -> ov
+	ov -> diam [URL="OV-diameter"]
+	ov -> regex [URL="OV-regex"]
+	ov -> lcs
+	ov -> ed
+
+	apsp -> mat_prod_minplus [URL="APSP-minplus"]
+	mat_prod_minplus -> tri_neg [URL="minplus-negtriangle"]
+	tri_neg -> min_k_cycle [URL="negtriangle-mincycle"]
+	tri_neg -> metric [dir=both; URL="negtriangle-metric"]
+	tri_neg -> tri_zero [URL="negtriangle-zerotriangle"]
+	min_k_cycle -> apsp [URL="mincycle-APSP"]
+	min_k_cycle -> submat_sum [dir=both; URL="mincycle-minsubmatrix"]
+
+	tri -> tri_neg_v [dir=both; URL="triangle-vnegtriangle"]
+	tri -> mat_prod_bool [URL="triangle-BMM"]
+	reach -> mat_prod_bool [dir=both; URL="reachability-BMM"]
+	mat_prod_bool -> mat_prod [URL="BMM-MM"]
+
+	sum3 -> sum3_conv [dir=both, URL="3sum-conv3sum"]
+	sum3 -> collinear [URL="3sum-collinearity"]
+	sum3_conv -> tri_zero
+
+	conv_minplus -> {sum3, mat_prod_minplus}
+	conv_minplus -> knapsack [dir=both]
+}

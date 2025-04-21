@@ -14,6 +14,7 @@ window.MathJax = {
             rank: "\\operatorname{rank}",
             set: ["\\left\\{ #1 \\right\\}", 1],
             class: ["\\mathcal{#1}", 1],
+            card: ["\\lvert #1 \\rvert", 1],
             norm: ["\\lVert #1 \\rVert", 1],
             inner: ["\\left\\langle #1, \\thinspace #2 \\right\\rangle", 2]
         }

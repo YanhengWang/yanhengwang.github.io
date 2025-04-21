@@ -19,4 +19,4 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Yanheng Wang | 王彦恒
-exclude: ["*.asy"]
+exclude: ["*.asy", "*.gv"]
