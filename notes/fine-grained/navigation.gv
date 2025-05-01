@@ -1,7 +1,7 @@
 digraph reductions {
 	graph [nodesep=0.1]
 	node [fontname="Gentium Basic"; fontsize=11; shape=box; style=rounded; height=0.3]
-	edge [penwidth=2; arrowsize=0.5; color="grey", target="_top"]
+	edge [penwidth=3; arrowsize=0.5; color="grey", target="_top"]
 
 	sat [label="k-SAT"]
 	ov [label="Orthogonal Vector"]
@@ -17,12 +17,11 @@ digraph reductions {
 	diam [label="Diameter"]
 	regex [label="Regex Matching"]
 	lcs [label="LCS"]
-	ed [label="Edit Distance"]
 
 	mat_prod [label="Matrix Product"]
 	mat_prod_bool [label="Boolean Matrix Product"]
 	mat_prod_minplus [label="(Min,+) Matrix Product"]
-	conv_minplus [label="(Min,+) Convolution"]
+	minplus_conv [label="(Min,+) Convolution"]
 
 	tri [label="Triangle"]
 	tri_neg_v [label="Vertex Negative Triangle"]
@@ -42,7 +41,6 @@ digraph reductions {
 	ov -> diam [URL="OV-diameter"]
 	ov -> regex [URL="OV-regex"]
 	ov -> lcs
-	ov -> ed
 
 	apsp -> mat_prod_minplus [URL="APSP-minplus"]
 	mat_prod_minplus -> tri_neg [URL="minplus-negtriangle"]
@@ -59,8 +57,9 @@ digraph reductions {
 
 	sum3 -> sum3_conv [dir=both, URL="3sum-conv3sum"]
 	sum3 -> collinear [URL="3sum-collinearity"]
-	sum3_conv -> tri_zero
+	sum3_conv -> tri_zero [URL="conv3sum-zerotriangle"]
 
-	conv_minplus -> {sum3, mat_prod_minplus}
-	conv_minplus -> knapsack [dir=both]
+	minplus_conv -> sum3_conv [URL="minplusconv-conv3sum"]
+	minplus_conv -> mat_prod_minplus [URL="minplusconv-minplus"]
+	minplus_conv -> knapsack [dir=both, URL="minplusconv-knapsack"]
 }
