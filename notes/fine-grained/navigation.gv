@@ -4,15 +4,15 @@ digraph reductions {
 	edge [penwidth=3; arrowsize=0.5; color="grey", target="_top"]
 
 	sat [label="k-SAT"]
+	ssat [label="Sparse k-SAT"]
 	ov [label="Orthogonal Vector"]
 	apsp [label="All-Pair Shortest Path"]
 	sum3 [label="3-Sum"]
 
-	dom [label="k-Dominating Set"]
-	clique [label="k-Clique"]
+	clique [label="q-Clique"]
 	subset_sum [label="Subset Sum"]
 	knapsack [label="Knapsack"]
-	hs [label="Hitting Set"]
+	hv [label="Hitting Vector"]
 
 	diam [label="Diameter"]
 	regex [label="Regex Matching"]
@@ -35,12 +35,15 @@ digraph reductions {
 	sum3_conv [label="Convolution 3-Sum"]
 	collinear [label="Collinearity"]
 
-	sat -> {ov, dom, clique, subset_sum}
-	clique -> tri
-	hs -> ov
+	sat -> ssat [URL="kSAT-skSAT"]
+	sat -> ov [URL="kSAT-OV"]
+	ssat -> clique [URL="skSAT-qclique"]
+	ssat -> subset_sum [URL="skSAT-subsetsum"]
+	clique -> tri [URL="qclique-triangle"]
+	hv -> ov [URL="HV-OV"]
 	ov -> diam [URL="OV-diameter"]
 	ov -> regex [URL="OV-regex"]
-	ov -> lcs
+	ov -> lcs [URL="OV-LCS"]
 
 	apsp -> mat_prod_minplus [URL="APSP-minplus"]
 	mat_prod_minplus -> tri_neg [URL="minplus-negtriangle"]
